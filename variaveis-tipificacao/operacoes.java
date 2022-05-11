@@ -1,5 +1,6 @@
 public class Main {
-	public static void main(String[] args) {
+
+public static void main(String[] args) {
 		
 	/*		 
 	 * Operações aritméticas
@@ -41,14 +42,23 @@ public class Main {
 	 * Operações de atribuição aritméticas
  	 */
 		
-		double d1 = 1.0d;
-		double d2 = 2.0d;
-		d1 += 15.5;
-		d1 -= d2;
-		d1 *= 2.5d;
-		d1 /= 0.67d;
+	double d1 = 1.0d;
+	double d2 = 2.0d;
+	d1 += 15.5;
+	d1 -= d2;
+	d1 *= 2.5d;
+	d1 /= 0.67d;
 		
-		System.out.println(d2);
+	System.out.println(d2);
 
-	}
+	int precedencia1 = 352 + 938 / 45 - 5 * 3 / 2;
+	int precedencia2 = 352 + (938 / 45) - ((5 * 3) / 2);
+	int precedencia3 = (352 + 938) / (45 - 5) * (3 / 2);
+
+	System.out.println(precedencia1);
+	System.out.println(precedencia2);
+	System.out.println(precedencia3);
+
+}
+
 }
