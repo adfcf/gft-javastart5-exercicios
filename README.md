@@ -1,7 +1,7 @@
-# Bootcamp Java Start #5
+# Bootcamp GFT Java Start #5
 Um repositório para manter arquivos associados ao bootcamp GFT JavaStart #5 da DIO.
 
-## Sobre o Markdown
+## Praticando o Markdown
 É possível, usando a linguagem Markdown, fazer formatações simples de textos no GitHub.
 ### Textos
 Textos podem ser escritos de maneira direta, sem qualquer símbolo especial.
@@ -38,7 +38,7 @@ Organiza-se os elementos em hífens (-).
 - Item 3
 
 #### Listas de tarefas
-Organiza-se os elementos colocando - [] (tarefas não feitas) e - [x] (tarefas feitas).
+Organiza-se os elementos colocando - [ ] (tarefas não feitas) e - [x] (tarefas feitas).
 - [x] Cortar o cabelo
 - [x] Comprar leite
 - [ ] Ir ao banco
