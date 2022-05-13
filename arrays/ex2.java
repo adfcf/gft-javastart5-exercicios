@@ -17,13 +17,13 @@ public class Main
         letra = Character.toUpperCase(letra);
         
         for (char vogal : vogais) {
-			if (letra == vogal) {
-				consoante = false;
-				break;
-			}
+		if (letra == vogal) {
+			consoante = false;
+			break;
 		}
+	}
 		
-		return consoante;
+	return consoante;
         
     }
     
@@ -32,7 +32,7 @@ public class Main
 		Scanner scanner = new Scanner(System.in);
 	
 		char[] vetor = new char[6];
-    	int numeroConsoantes = 0;
+    		int numeroConsoantes = 0;
     	
 		for (int i = 0; i < vetor.length; ++i) {
 	
